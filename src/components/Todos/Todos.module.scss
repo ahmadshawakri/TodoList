@@ -1,0 +1,18 @@
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 30%;
+  .todoItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    border-radius: 10px;
+    padding: 10px;
+    .todoText{
+        font-size: 19px;
+        color: #fff;
+    }
+  }
+}

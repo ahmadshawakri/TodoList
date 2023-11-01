@@ -1,0 +1,40 @@
+$blackColor: #000;
+$whiteColor: #fff;
+$lightGray: #999;
+$lightBlue: #42a0f0;
+$backgroundColor: #2c2c2c;
+$inputColor: #d9d9d9;
+$tasksColor: #222;
+$btnColor: #4f4f4f;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  height: 100vh;
+  .todoHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .headText {
+      color: $whiteColor;
+      font-size: 64px;
+      font-family: "Racing Sans One";
+    }
+    .addBtn {
+      min-width: 142px;
+      height: 40px;
+      background-color: $btnColor;
+      border: transparent;
+      border-radius: 20px;
+      color: $whiteColor;
+      font-size: 25px;
+      font-family: "Racing Sans One";
+    }
+  }
+
+  .message {
+    color: #fff;
+  }
+}
